@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send("Hello from Render! This is a simple Express server running on Render.");
+  res.send("Updated version: Auto Deploy working!");
 });
 
 app.listen(PORT, () => {
