@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send("Updated version: Auto Deploy working!");
+  res.send("FINAL AUTO DEPLOY TEST");
 });
 
 app.listen(PORT, () => {
